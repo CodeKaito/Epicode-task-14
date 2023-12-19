@@ -1,0 +1,12 @@
+body {
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/738/744/882/music-vinyl-simple-background-minimalism-wallpaper-520142900d96ce9bcac892c590c829a2.jpg");
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

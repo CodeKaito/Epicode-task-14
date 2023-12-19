@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    max-width: 1000px; /* Impedisce al body di restringersi oltre 600px di larghezza */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}  
+
+.navbar-collapse {
+    flex-grow: initial !important;
+}
+
+@media screen and (min-width: 556px) and (max-width: 992px) {
+    .element {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .element {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .element {
+        width: 200%;
+        min-width: auto;
+    }
+}

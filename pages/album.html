@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../global.css">
+</head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">MusicHub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/album.html">Albums</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/fav.html">Favorite Album</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Elementi visibili solo su dispositivi desktop (md e lg) -->
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-050-Jay-Z-The-Blueprint.jpg?w=1000" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="album-title">'The Blueprint'</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Blueprint" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="Blueprint">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Jay-Z</p>
+                                <p class="album-genre">Genre: Hip-Hop/Rap</p>
+                                <p class="duration">Duration: 1 hour and 7 minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-049-Outkast-Aquemini.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">'Aquemini'</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Aquemini" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="Aquemini">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Outcast</p>
+                                <p class="album-genre">Genre: Musical /Funk /Soul /R&B /Rock.</p>
+                                <p class="duration">Duration: 74 minutes and 54 seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <a href="/pages/fav.html">
+                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-048-Bob-Marley-and-the-Wailers-Legend.jpg?w=1000" class="card-img-top" alt="...">
+                    </a>
+                    
+                    <div class="card-body">
+                        <h5 class="album-title">‘Legend’</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#legend" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="legend">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Bob Marley</p>
+                                <p class="album-group">Group: Bob Marley and the Wailers</p>
+                                <p class="album-genre">Genre: Raggae</p>
+                                <p class="duration">Duration: 72 minutes and 21 seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-041-The-Rolling-Stones-Let-It-Bleed.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">'Let It Bleed'</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#letitbleed" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="letitbleed">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: The Rolling Stones</p>
+                                <p class="album-group">Group: The Rolling Stones</p>
+                                <p class="album-genre">Genre: Blues, Country, & Gospel.</p>
+                                <p class="duration">Duration: 42 minutes and 25 seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-020-Radiohead-KID-A.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">‘Kid A’</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#radiohead" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="radiohead">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Radiohead</p>
+                                <p class="album-genre">Genre: Rock, Electronic & Art Rock.</p>
+                                <p class="duration">Duration: 49 minutes and 57 seconds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-035-The-Beatles-Rubber-Soul.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">‘Rubber Soul’</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#beatles" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="beatles">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: The Beatles</p>
+                                <p class="album-genre">Genre: Folk&Rock.</p>
+                                <p class="duration">Duration: 34 minutes and 29 seconds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-034-Stevie-Wonder-Innervisions.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">‘Innervisions’</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#steviewonder" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="steviewonder">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Stevie Wonder</p>
+                                <p class="album-genre">Genre: Folk&Rock.</p>
+                                <p class="duration">Duration: 34 minutes and 29 seconds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 p-3 element">
+                <div class="card">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-033-Amy-Winehouse-Back-to-Black.jpg?w=1000" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="album-title">‘Back to Black’</h5>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#amywinehouse" aria-expanded="false" aria-controls="collapseExample">
+                            View details
+                        </button>
+                        
+                        <div class="collapse" id="amywinehouse">
+                            <div class="card card-body">
+                                <p class="album-artist">Artist: Amy Winehouse</p>
+                                <p class="album-genre">Genre: R&B & Jazz.</p>
+                                <p class="duration">Duration: 34 minutes and 58 seconds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
